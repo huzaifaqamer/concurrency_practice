@@ -59,8 +59,6 @@ class GitRepoScraperMultiThreadedMaxWorkers():
                     files
                 ))
 
-        return True
-
                 
     def _consumer(self):
         while True:
