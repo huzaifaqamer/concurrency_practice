@@ -73,7 +73,6 @@ class GitRepoScraperMultiThreadedMaxWorkers():
             self.committers[username]['additions'] += commit_info.additions
             self.committers[username]['deletions'] += commit_info.deletions
             self.committers[username]['files'].update(commit_info.files)
-            self.pipeline.task_done()
 
 
     def _get_non_empty_files(self, commit_data):
