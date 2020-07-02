@@ -1,0 +1,6 @@
+https://realpython.com/intro-to-python-threading/
+https://docs.python.org/3/library/concurrent.futures.html
+
+
+https://medium.com/@jwnx/multiprocessing-serialization-in-python-with-pickle-9844f6fa1812
+http://matthewrocklin.com/blog/work/2013/12/05/Parallelism-and-Serialization
